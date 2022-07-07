@@ -1,0 +1,36 @@
+{
+	"environments": {
+   	"live": {
+      	"endpoint": "https://mturk-requester.us-east-1.amazonaws.com",
+        	"preview": "https://www.mturk.com/mturk/preview",
+        	"manage": "https://requester.mturk.com/mturk/manageHITs",
+        	"reward": "0.00",
+        	"max_assignments": 100,
+			"auto_approval_delay_in_seconds": 3600,
+			"lifetime_in_seconds": 2419200,
+			"assignment_duration_in_seconds": 1800,
+			"title": "chatbot experiment",
+			"keywords": "chat",
+			"description": "chatbot experiment"
+		},
+    	"sandbox": {
+      	"endpoint": "https://mturk-requester-sandbox.us-east-1.amazonaws.com",
+        	"preview": "https://workersandbox.mturk.com/mturk/preview",
+       	"manage": "https://requestersandbox.mturk.com/mturk/manageHITs",
+        	"reward": "0.01",
+        	"max_assignments": 10,
+			"auto_approval_delay_in_seconds": 300,
+			"lifetime_in_seconds": 10800,
+			"assignment_duration_in_seconds": 1800,
+			"title": "chatbot experiment",
+			"keywords": "chat",
+			"description": "chatbot experiment",
+			"qualification_requirements": [{
+				"QualificationTypeId": "...",
+				"Comparator": "Exists",
+				"RequiredToPreview": true,
+				"ActionsGuarded": "DiscoverPreviewAndAccept"
+			}]
+    	}
+	}
+}

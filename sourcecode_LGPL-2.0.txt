@@ -1,0 +1,9 @@
+This product contains software components that are licensed by the copyright holders as Free Software or Open Source software under the GNU Lesser General Public License, version 2.1. Anyone can obtain the source code for these software components from Fraunhofer on a data carrier (e.g. USB memory stick). This offer is valid within three years after the most recent distribution of the object code by Fraunhofer. Please send your request to the following email address birgit.brueggemeier@iis.fraunhofer.de or via regular mail to the following address:
+
+Fraunhofer IIS
+Audio and Media Processing (AME)
+Am Wolfsmantel 33, 91058 Erlangen
+
+Please specify the address to which you wish us to send the source code. Additional product information (e.g. explicit product name, serial number etc.) will help us to identify the corresponding source code for you.
+
+The source code will be sent to the given address after reimbursement of the effectively incurring expenses for providing the data carrier and shipping.

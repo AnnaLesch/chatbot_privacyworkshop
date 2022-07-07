@@ -1,0 +1,53 @@
+    #main { margin-top: 5px; }
+    .msg-in, .msg-out {
+      display: block;
+      padding: 10px;
+      width: 600px;
+		margin: 3px;
+      margin-bottom: 20px;
+    }
+    .msg-in {
+	   background: #00aabb;
+      margin-left: 0px;
+		margin-right: auto;
+    }
+    .msg-out {
+	   background: #00ccdd;
+		margin-left: auto;
+      margin-right: 0px;
+    }
+    .msg-bubble {
+	   position: relative;
+	   border-radius: .4em;
+    }
+    .msg-bubble:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border: 20px solid transparent;
+      border-bottom: 0;
+      border-right: 0;
+      margin-left: -10px;
+      margin-bottom: -20px;
+    }
+    .msg-bubble-in:after {
+      border-top-color: #00aabb;
+      left: 20%;
+    }
+    .msg-bubble-out:after {
+      border-top-color: #00ccdd;
+      left: 80%;
+    }
+    .msgs {
+      height: 400px;
+		margin-top: 10px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+    .inputbox { margin-top: 20px; }
+    .hidden { display: none; }
+    .small { font-size: 10pt; }
+    .red { color: red; }
+    td { padding: 5px; }
